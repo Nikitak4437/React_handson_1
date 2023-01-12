@@ -13,11 +13,11 @@ class App extends React.Component {
     // this.fDivState = false;
     // this.cDivState = false;
   }
-  
+
   toggelDiv = (type) => {
     // alert("Great Shot!");
     var data = this.state;
-    if (type == "f") {
+    if (type === "f") {
       data.fDivState = !data.fDivState;
     } else {
       data.cDivState = !data.cDivState;
